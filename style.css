@@ -105,13 +105,13 @@ h1, h2, h3, .logo {
     margin: 0 auto 30px;
 }
 
-/* Correctif des boutons (Mobile-friendly) */
+
 .hero-btns {
     display: flex;
     gap: 15px;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap; /* Empile les boutons si l'écran est trop petit */
+    flex-wrap: wrap; 
 }
 
 .btn-primary, .btn-secondary {
@@ -121,7 +121,7 @@ h1, h2, h3, .logo {
     border-radius: 4px;
     transition: var(--transition);
     text-align: center;
-    white-space: nowrap; /* Empêche le texte de revenir à la ligne */
+    white-space: nowrap; 
     font-size: 0.95rem;
 }
 
@@ -204,7 +204,7 @@ h1, h2, h3, .logo {
     width: 100%;
     height: 400px;
     object-fit: cover;
-    object-position: top center; /* Evite de couper les têtes */
+    object-position: top center; 
     filter: grayscale(100%);
     transition: 0.5s ease;
     display: block;
@@ -296,7 +296,7 @@ footer {
 
 @media (max-width: 768px) {
     .navbar { padding: 15px 5%; }
-    .nav-links { display: none; } /* On pourrait ajouter un menu burger ici */
+    .nav-links { display: none; } 
     
     .services, .team, .contact { padding: 60px 5%; }
     
@@ -321,7 +321,6 @@ footer {
     }
 }
 
-/* Pour tes titres h4 ou petits titres d'info */
 h4 {
     color: var(--primary);
     font-size: 0.85rem;
@@ -331,3 +330,4 @@ h4 {
     margin-bottom: 5px;
     letter-spacing: 1px;
 }
+
